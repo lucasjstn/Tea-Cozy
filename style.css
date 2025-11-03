@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  opacity: 0.9;
 }
 
 body {
@@ -83,6 +84,7 @@ main {
   width: 1000px;
   /* border: 1px solid red; */
   text-align: center;
+  margin-bottom: 80px;
   
 }
 
@@ -115,4 +117,15 @@ main {
     flex-direction: column;
     align-items: center;
     gap: 10px;
+}
+
+.locations {
+    background-image: url(images/img-locations-background.jpg);
+    width: 1200px;
+}
+
+.locations h1 {
+    color: seashell;
+    text-align: center;
+    padding: 50px;
 }
