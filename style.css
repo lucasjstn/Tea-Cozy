@@ -81,7 +81,7 @@ main {
   align-items: center;
   gap: 20px;
   width: 1000px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   text-align: center;
   
 }
@@ -108,4 +108,11 @@ main {
 .rank p {
     font-weight: bold;
     color: seashell;
+}
+
+.images>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
