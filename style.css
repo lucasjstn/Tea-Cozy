@@ -85,47 +85,77 @@ main {
   /* border: 1px solid red; */
   text-align: center;
   margin-bottom: 80px;
-  
 }
 
 .title {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .rank .images {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 20px;
-    
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
 }
 
 .rank img {
-    width: 300px;
-    height: 200px;
+  width: 300px;
+  height: 200px;
 }
 .rank p {
-    font-weight: bold;
-    color: seashell;
+  font-weight: bold;
+  color: seashell;
 }
 
-.images>div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
+.images > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 
 .locations {
-    background-image: url(images/img-locations-background.jpg);
-    width: 1200px;
+  background-image: url(images/img-locations-background.jpg);
+  width: 1200px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.locations h1 {
-    color: seashell;
-    text-align: center;
-    padding: 50px;
+.locations > h1 {
+  color: seashell;
+  margin-top: 100px;
+}
+
+.card h1,
+.card p {
+  color: seashell;
+  text-align: center;
+}
+.card h1 {
+  font-size: 30px;
+}
+
+.card p {
+  font-size: 20px;
+}
+
+.locations .wrapper {
+  display: flex;
+  margin-top: 15px;
+}
+
+.locations .card {
+  width: 300px;
+  background-color: black;
+  margin: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
 }
